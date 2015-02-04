@@ -6,8 +6,9 @@
 /**
  * Main AngularJS Web Application
  */
-var app = angular.module('tutorialWebApp', [
-  'ngRoute'
+var app = angular.module('icaro', [
+  'ngRoute',
+  'ngMaterial'
 ]);
 
 /**
@@ -30,6 +31,11 @@ app.config(['$routeProvider', function ($routeProvider) {
     .otherwise("/404", {templateUrl: "partials/404.html", controller: "PageCtrl"});
 }]);
 
+app.config(function($mdThemingProvider) {
+  $mdThemingProvider.theme('default')
+  .primaryColor('teal');
+});
+
 /**
  * Controls the Blog
  */
@@ -42,14 +48,4 @@ app.controller('BlogCtrl', function (/* $scope, $location, $http */) {
  */
 app.controller('PageCtrl', function (/* $scope, $location, $http */) {
   console.log("Page Controller reporting for duty.");
-
-  // Activates the Carousel
-  $('.carousel').carousel({
-    interval: 5000
-  });
-
-  // Activates Tooltips for Social Links
-  $('.tooltip-social').tooltip({
-    selector: "a[data-toggle=tooltip]"
-  })
 });

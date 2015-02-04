@@ -1,0 +1,500 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'connect',
+1 verbose cli   'serve-static' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.35
+4 verbose cache add [ 'connect', null ]
+5 verbose cache add name=undefined spec="connect" args=["connect",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'connect',
+6 verbose parsed url   path: 'connect',
+6 verbose parsed url   href: 'connect' }
+7 verbose cache add [ 'serve-static', null ]
+8 verbose cache add name=undefined spec="serve-static" args=["serve-static",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'serve-static',
+9 verbose parsed url   path: 'serve-static',
+9 verbose parsed url   href: 'serve-static' }
+10 silly lockFile f11a107f-connect connect
+11 verbose lock connect /home/icaro/.npm/f11a107f-connect.lock
+12 silly lockFile fae0c2c0-serve-static serve-static
+13 verbose lock serve-static /home/icaro/.npm/fae0c2c0-serve-static.lock
+14 silly lockFile f11a107f-connect connect
+15 silly lockFile f11a107f-connect connect
+16 silly lockFile fae0c2c0-serve-static serve-static
+17 silly lockFile fae0c2c0-serve-static serve-static
+18 verbose addNamed [ 'connect', '' ]
+19 verbose addNamed [ null, '*' ]
+20 silly lockFile 6c45e0f3-connect connect@
+21 verbose lock connect@ /home/icaro/.npm/6c45e0f3-connect.lock
+22 verbose addNamed [ 'serve-static', '' ]
+23 verbose addNamed [ null, '*' ]
+24 silly lockFile 5f35dc5b-serve-static serve-static@
+25 verbose lock serve-static@ /home/icaro/.npm/5f35dc5b-serve-static.lock
+26 silly addNameRange { name: 'connect', range: '*', hasData: false }
+27 silly addNameRange { name: 'serve-static', range: '*', hasData: false }
+28 verbose request where is /serve-static
+29 verbose request registry https://registry.npmjs.org/
+30 verbose request id 24f37fd116544a4f
+31 verbose url raw /serve-static
+32 verbose url resolving [ 'https://registry.npmjs.org/', './serve-static' ]
+33 verbose url resolved https://registry.npmjs.org/serve-static
+34 verbose request where is https://registry.npmjs.org/serve-static
+35 info trying registry request attempt 1 at 00:21:30
+36 verbose etag "9FCGINHXWG3BDNP0NXJK0RNK4"
+37 http GET https://registry.npmjs.org/serve-static
+38 verbose request where is /connect
+39 verbose request registry https://registry.npmjs.org/
+40 verbose url raw /connect
+41 verbose url resolving [ 'https://registry.npmjs.org/', './connect' ]
+42 verbose url resolved https://registry.npmjs.org/connect
+43 verbose request where is https://registry.npmjs.org/connect
+44 info trying registry request attempt 1 at 00:21:30
+45 verbose etag "4T1DYJIO1M97B75KPZP7306KD"
+46 http GET https://registry.npmjs.org/connect
+47 http 304 https://registry.npmjs.org/connect
+48 silly registry.get cb [ 304,
+48 silly registry.get   { date: 'Wed, 14 Jan 2015 02:21:30 GMT',
+48 silly registry.get     server: 'Apache',
+48 silly registry.get     via: '1.1 varnish',
+48 silly registry.get     'last-modified': 'Wed, 14 Jan 2015 02:20:58 GMT',
+48 silly registry.get     'cache-control': 'max-age=60',
+48 silly registry.get     etag: '"4T1DYJIO1M97B75KPZP7306KD"',
+48 silly registry.get     age: '32',
+48 silly registry.get     'x-served-by': 'cache-jfk1027-JFK',
+48 silly registry.get     'x-cache': 'HIT',
+48 silly registry.get     'x-cache-hits': '2',
+48 silly registry.get     'x-timer': 'S1421202090.985207,VS0,VE0',
+48 silly registry.get     vary: 'Accept',
+48 silly registry.get     'content-length': '0',
+48 silly registry.get     'keep-alive': 'timeout=10, max=50',
+48 silly registry.get     connection: 'Keep-Alive' } ]
+49 verbose etag https://registry.npmjs.org/connect from cache
+50 silly addNameRange number 2 { name: 'connect', range: '*', hasData: true }
+51 silly addNameRange versions [ 'connect',
+51 silly addNameRange   [ '0.0.1',
+51 silly addNameRange     '0.0.2',
+51 silly addNameRange     '0.0.3',
+51 silly addNameRange     '0.0.4',
+51 silly addNameRange     '0.0.5',
+51 silly addNameRange     '0.0.6',
+51 silly addNameRange     '0.1.0',
+51 silly addNameRange     '0.2.0',
+51 silly addNameRange     '0.2.1',
+51 silly addNameRange     '0.2.2',
+51 silly addNameRange     '0.2.3',
+51 silly addNameRange     '0.2.4',
+51 silly addNameRange     '0.2.5',
+51 silly addNameRange     '0.2.6',
+51 silly addNameRange     '0.2.7',
+51 silly addNameRange     '0.3.0',
+51 silly addNameRange     '0.4.0',
+51 silly addNameRange     '0.5.0',
+51 silly addNameRange     '0.5.1',
+51 silly addNameRange     '0.5.2',
+51 silly addNameRange     '0.5.3',
+51 silly addNameRange     '0.5.4',
+51 silly addNameRange     '0.5.5',
+51 silly addNameRange     '0.5.6',
+51 silly addNameRange     '0.5.7',
+51 silly addNameRange     '0.5.8',
+51 silly addNameRange     '0.5.9',
+51 silly addNameRange     '0.5.10',
+51 silly addNameRange     '1.0.0',
+51 silly addNameRange     '1.0.1',
+51 silly addNameRange     '1.0.2',
+51 silly addNameRange     '1.0.3',
+51 silly addNameRange     '1.0.4',
+51 silly addNameRange     '1.0.5',
+51 silly addNameRange     '1.0.6',
+51 silly addNameRange     '1.1.0',
+51 silly addNameRange     '1.1.1',
+51 silly addNameRange     '1.1.2',
+51 silly addNameRange     '1.1.3',
+51 silly addNameRange     '1.1.4',
+51 silly addNameRange     '1.1.5',
+51 silly addNameRange     '1.2.0',
+51 silly addNameRange     '1.2.1',
+51 silly addNameRange     '1.2.2',
+51 silly addNameRange     '1.2.3',
+51 silly addNameRange     '1.3.0',
+51 silly addNameRange     '1.4.0',
+51 silly addNameRange     '1.4.1',
+51 silly addNameRange     '1.4.2',
+51 silly addNameRange     '1.4.3',
+51 silly addNameRange     '1.4.4',
+51 silly addNameRange     '1.4.5',
+51 silly addNameRange     '1.4.6',
+51 silly addNameRange     '1.5.0',
+51 silly addNameRange     '1.5.1',
+51 silly addNameRange     '1.5.2',
+51 silly addNameRange     '1.6.0',
+51 silly addNameRange     '1.6.1',
+51 silly addNameRange     '1.6.2',
+51 silly addNameRange     '1.6.3',
+51 silly addNameRange     '1.6.4',
+51 silly addNameRange     '1.7.0',
+51 silly addNameRange     '1.7.1',
+51 silly addNameRange     '1.7.2',
+51 silly addNameRange     '1.7.3',
+51 silly addNameRange     '1.8.0',
+51 silly addNameRange     '1.8.1',
+51 silly addNameRange     '1.8.2',
+51 silly addNameRange     '1.8.3',
+51 silly addNameRange     '1.8.4',
+51 silly addNameRange     '1.8.5',
+51 silly addNameRange     '2.0.0',
+51 silly addNameRange     '2.0.1',
+51 silly addNameRange     '2.0.2',
+51 silly addNameRange     '2.0.3',
+51 silly addNameRange     '1.8.6',
+51 silly addNameRange     '2.1.0',
+51 silly addNameRange     '2.1.1',
+51 silly addNameRange     '2.1.2',
+51 silly addNameRange     '1.8.7',
+51 silly addNameRange     '2.1.3',
+51 silly addNameRange     '2.2.0',
+51 silly addNameRange     '2.2.1',
+51 silly addNameRange     '2.2.2',
+51 silly addNameRange     '2.3.0',
+51 silly addNameRange     '2.3.1',
+51 silly addNameRange     '2.3.2',
+51 silly addNameRange     '2.3.3',
+51 silly addNameRange     '1.9.0',
+51 silly addNameRange     '1.9.1',
+51 silly addNameRange     '2.3.4',
+51 silly addNameRange     '2.3.5',
+51 silly addNameRange     '2.3.6',
+51 silly addNameRange     '2.3.7',
+51 silly addNameRange     '1.9.2',
+51 silly addNameRange     '2.3.8',
+51 silly addNameRange     '2.3.9',
+51 silly addNameRange     '2.4.0',
+51 silly addNameRange     '2.4.1',
+51 silly addNameRange     '2.4.2',
+51 silly addNameRange     '2.4.3',
+51 silly addNameRange     '2.4.4',
+51 silly addNameRange     '2.4.5',
+51 silly addNameRange     '2.4.6',
+51 silly addNameRange     '2.5.0',
+51 silly addNameRange     '2.6.0',
+51 silly addNameRange     '2.6.1',
+51 silly addNameRange     '2.6.2',
+51 silly addNameRange     '2.7.0',
+51 silly addNameRange     '2.7.1',
+51 silly addNameRange     '2.7.2',
+51 silly addNameRange     '2.7.3',
+51 silly addNameRange     '2.7.4',
+51 silly addNameRange     '2.7.5',
+51 silly addNameRange     '2.7.6',
+51 silly addNameRange     '2.7.7',
+51 silly addNameRange     '2.7.8',
+51 silly addNameRange     '2.7.9',
+51 silly addNameRange     '2.7.10',
+51 silly addNameRange     '2.7.11',
+51 silly addNameRange     '2.8.0',
+51 silly addNameRange     '2.8.1',
+51 silly addNameRange     '2.8.2',
+51 silly addNameRange     '2.8.3',
+51 silly addNameRange     '2.8.4',
+51 silly addNameRange     '2.8.5',
+51 silly addNameRange     '2.8.6',
+51 silly addNameRange     '2.8.7',
+51 silly addNameRange     '2.8.8',
+51 silly addNameRange     '2.9.0',
+51 silly addNameRange     '2.9.1',
+51 silly addNameRange     '2.9.2',
+51 silly addNameRange     '2.10.0',
+51 silly addNameRange     '2.10.1',
+51 silly addNameRange     '2.11.0',
+51 silly addNameRange     '2.11.1',
+51 silly addNameRange     '2.11.2',
+51 silly addNameRange     '2.12.0',
+51 silly addNameRange     '2.13.0',
+51 silly addNameRange     '2.13.1',
+51 silly addNameRange     '2.14.0',
+51 silly addNameRange     '2.14.1',
+51 silly addNameRange     '3.0.0-rc.1',
+51 silly addNameRange     '2.14.2',
+51 silly addNameRange     '2.14.3',
+51 silly addNameRange     '2.14.4',
+51 silly addNameRange     '2.14.5',
+51 silly addNameRange     '2.15.0',
+51 silly addNameRange     '3.0.0-rc.2',
+51 silly addNameRange     '2.16.0',
+51 silly addNameRange     '2.16.1',
+51 silly addNameRange     '2.16.2',
+51 silly addNameRange     '2.17.0',
+51 silly addNameRange     '2.17.1',
+51 silly addNameRange     '2.17.2',
+51 silly addNameRange     '2.17.3',
+51 silly addNameRange     '2.18.0',
+51 silly addNameRange     '3.0.0',
+51 silly addNameRange     '2.19.0',
+51 silly addNameRange     '2.19.1',
+51 silly addNameRange     '2.19.2',
+51 silly addNameRange     '2.19.3',
+51 silly addNameRange     '2.19.4',
+51 silly addNameRange     '2.19.5',
+51 silly addNameRange     '2.19.6',
+51 silly addNameRange     '2.20.0',
+51 silly addNameRange     '2.20.1',
+51 silly addNameRange     '2.20.2',
+51 silly addNameRange     '3.0.1',
+51 silly addNameRange     '2.21.0',
+51 silly addNameRange     '2.21.1',
+51 silly addNameRange     '2.22.0',
+51 silly addNameRange     '2.23.0',
+51 silly addNameRange     '3.0.2',
+51 silly addNameRange     '2.24.0',
+51 silly addNameRange     '3.1.0',
+51 silly addNameRange     '2.24.1',
+51 silly addNameRange     '2.24.2',
+51 silly addNameRange     '2.24.3',
+51 silly addNameRange     '2.25.0',
+51 silly addNameRange     '2.25.1',
+51 silly addNameRange     '2.25.2',
+51 silly addNameRange     '2.25.3',
+51 silly addNameRange     '2.25.4',
+51 silly addNameRange     '3.1.1',
+51 silly addNameRange     '2.25.5',
+51 silly addNameRange     '2.25.6',
+51 silly addNameRange     '2.25.7',
+51 silly addNameRange     '2.25.8',
+51 silly addNameRange     '2.25.9',
+51 silly addNameRange     '2.25.10',
+51 silly addNameRange     '2.26.0',
+51 silly addNameRange     '3.2.0',
+51 silly addNameRange     '2.26.1',
+51 silly addNameRange     '2.26.2',
+51 silly addNameRange     '2.26.3',
+51 silly addNameRange     '2.26.4',
+51 silly addNameRange     '2.26.5',
+51 silly addNameRange     '2.26.6',
+51 silly addNameRange     '2.27.0',
+51 silly addNameRange     '3.3.0',
+51 silly addNameRange     '2.27.1',
+51 silly addNameRange     '3.3.1',
+51 silly addNameRange     '2.27.2',
+51 silly addNameRange     '3.3.2',
+51 silly addNameRange     '2.27.3',
+51 silly addNameRange     '3.3.3',
+51 silly addNameRange     '2.27.4',
+51 silly addNameRange     '2.27.5',
+51 silly addNameRange     '2.27.6',
+51 silly addNameRange     '2.28.0',
+51 silly addNameRange     '3.3.4',
+51 silly addNameRange     '2.28.1' ] ]
+52 verbose addNamed [ 'connect', '3.3.4' ]
+53 verbose addNamed [ '3.3.4', '3.3.4' ]
+54 silly lockFile d5560a75-connect-3-3-4 connect@3.3.4
+55 verbose lock connect@3.3.4 /home/icaro/.npm/d5560a75-connect-3-3-4.lock
+56 http 304 https://registry.npmjs.org/serve-static
+57 silly registry.get cb [ 304,
+57 silly registry.get   { date: 'Wed, 14 Jan 2015 02:21:31 GMT',
+57 silly registry.get     server: 'Apache',
+57 silly registry.get     via: '1.1 varnish',
+57 silly registry.get     'last-modified': 'Wed, 14 Jan 2015 02:21:08 GMT',
+57 silly registry.get     'cache-control': 'max-age=60',
+57 silly registry.get     etag: '"9FCGINHXWG3BDNP0NXJK0RNK4"',
+57 silly registry.get     age: '49',
+57 silly registry.get     'x-served-by': 'cache-jfk1032-JFK',
+57 silly registry.get     'x-cache': 'HIT',
+57 silly registry.get     'x-cache-hits': '2',
+57 silly registry.get     'x-timer': 'S1421202091.019225,VS0,VE0',
+57 silly registry.get     vary: 'Accept',
+57 silly registry.get     'content-length': '0',
+57 silly registry.get     'keep-alive': 'timeout=10, max=50',
+57 silly registry.get     connection: 'Keep-Alive' } ]
+58 verbose etag https://registry.npmjs.org/serve-static from cache
+59 silly lockFile d5560a75-connect-3-3-4 connect@3.3.4
+60 silly lockFile d5560a75-connect-3-3-4 connect@3.3.4
+61 silly lockFile 6c45e0f3-connect connect@
+62 silly lockFile 6c45e0f3-connect connect@
+63 silly addNameRange number 2 { name: 'serve-static', range: '*', hasData: true }
+64 silly addNameRange versions [ 'serve-static',
+64 silly addNameRange   [ '1.0.0',
+64 silly addNameRange     '1.0.1',
+64 silly addNameRange     '1.0.2',
+64 silly addNameRange     '1.0.3',
+64 silly addNameRange     '1.0.4',
+64 silly addNameRange     '1.1.0',
+64 silly addNameRange     '1.2.0',
+64 silly addNameRange     '1.2.1',
+64 silly addNameRange     '1.2.2',
+64 silly addNameRange     '1.2.3',
+64 silly addNameRange     '1.3.0',
+64 silly addNameRange     '1.3.1',
+64 silly addNameRange     '1.3.2',
+64 silly addNameRange     '1.4.0',
+64 silly addNameRange     '1.4.1',
+64 silly addNameRange     '1.4.2',
+64 silly addNameRange     '1.4.3',
+64 silly addNameRange     '1.4.4',
+64 silly addNameRange     '1.5.0',
+64 silly addNameRange     '1.5.1',
+64 silly addNameRange     '1.5.2',
+64 silly addNameRange     '1.5.3',
+64 silly addNameRange     '1.5.4',
+64 silly addNameRange     '1.6.0',
+64 silly addNameRange     '1.6.1',
+64 silly addNameRange     '1.6.2',
+64 silly addNameRange     '1.6.3',
+64 silly addNameRange     '1.6.4',
+64 silly addNameRange     '1.7.0',
+64 silly addNameRange     '1.7.1',
+64 silly addNameRange     '1.7.2',
+64 silly addNameRange     '1.8.0' ] ]
+65 verbose addNamed [ 'serve-static', '1.8.0' ]
+66 verbose addNamed [ '1.8.0', '1.8.0' ]
+67 silly lockFile 70f0c8fd-serve-static-1-8-0 serve-static@1.8.0
+68 verbose lock serve-static@1.8.0 /home/icaro/.npm/70f0c8fd-serve-static-1-8-0.lock
+69 silly lockFile 70f0c8fd-serve-static-1-8-0 serve-static@1.8.0
+70 silly lockFile 70f0c8fd-serve-static-1-8-0 serve-static@1.8.0
+71 silly lockFile 5f35dc5b-serve-static serve-static@
+72 silly lockFile 5f35dc5b-serve-static serve-static@
+73 silly resolved [ { name: 'connect',
+73 silly resolved     description: 'High performance middleware framework',
+73 silly resolved     version: '3.3.4',
+73 silly resolved     author:
+73 silly resolved      { name: 'TJ Holowaychuk',
+73 silly resolved        email: 'tj@vision-media.ca',
+73 silly resolved        url: 'http://tjholowaychuk.com' },
+73 silly resolved     contributors: [ [Object], [Object], [Object] ],
+73 silly resolved     keywords: [ 'framework', 'web', 'middleware', 'connect', 'rack' ],
+73 silly resolved     repository: { type: 'git', url: 'https://github.com/senchalabs/connect' },
+73 silly resolved     dependencies:
+73 silly resolved      { debug: '~2.1.1',
+73 silly resolved        finalhandler: '0.3.3',
+73 silly resolved        parseurl: '~1.3.0',
+73 silly resolved        'utils-merge': '1.0.0' },
+73 silly resolved     devDependencies:
+73 silly resolved      { istanbul: '0.3.5',
+73 silly resolved        mocha: '~2.1.0',
+73 silly resolved        should: '~4.4.2',
+73 silly resolved        supertest: '~0.15.0' },
+73 silly resolved     license: 'MIT',
+73 silly resolved     engines: { node: '>= 0.10.0' },
+73 silly resolved     scripts:
+73 silly resolved      { test: 'mocha --require test/support/env --reporter spec --bail --check-leaks test/',
+73 silly resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --require test/support/env --reporter dot --check-leaks test/',
+73 silly resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --require test/support/env --reporter spec --check-leaks test/' },
+73 silly resolved     gitHead: '84a2a042914bfa32eb380a5198cdbbf97f47cf3c',
+73 silly resolved     bugs: { url: 'https://github.com/senchalabs/connect/issues' },
+73 silly resolved     homepage: 'https://github.com/senchalabs/connect',
+73 silly resolved     _id: 'connect@3.3.4',
+73 silly resolved     _shasum: 'c4d6385e06c75885d8b4f2d276a374e2d8fbe23e',
+73 silly resolved     _from: 'connect@',
+73 silly resolved     _npmVersion: '1.4.28',
+73 silly resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+73 silly resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+73 silly resolved     dist:
+73 silly resolved      { shasum: 'c4d6385e06c75885d8b4f2d276a374e2d8fbe23e',
+73 silly resolved        tarball: 'http://registry.npmjs.org/connect/-/connect-3.3.4.tgz' },
+73 silly resolved     directories: {},
+73 silly resolved     _resolved: 'https://registry.npmjs.org/connect/-/connect-3.3.4.tgz',
+73 silly resolved     readme: 'ERROR: No README data found!' },
+73 silly resolved   { name: 'serve-static',
+73 silly resolved     description: 'Serve static files',
+73 silly resolved     version: '1.8.0',
+73 silly resolved     author:
+73 silly resolved      { name: 'Douglas Christopher Wilson',
+73 silly resolved        email: 'doug@somethingdoug.com' },
+73 silly resolved     license: 'MIT',
+73 silly resolved     repository:
+73 silly resolved      { type: 'git',
+73 silly resolved        url: 'https://github.com/expressjs/serve-static' },
+73 silly resolved     dependencies:
+73 silly resolved      { 'escape-html': '1.0.1',
+73 silly resolved        parseurl: '~1.3.0',
+73 silly resolved        send: '0.11.0',
+73 silly resolved        'utils-merge': '1.0.0' },
+73 silly resolved     devDependencies: { istanbul: '0.3.5', mocha: '~2.1.0', supertest: '~0.15.0' },
+73 silly resolved     files: [ 'LICENSE', 'HISTORY.md', 'index.js' ],
+73 silly resolved     engines: { node: '>= 0.8.0' },
+73 silly resolved     scripts:
+73 silly resolved      { test: 'mocha --reporter spec --bail --check-leaks test/',
+73 silly resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --reporter dot --check-leaks test/',
+73 silly resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --reporter spec --check-leaks test/' },
+73 silly resolved     gitHead: 'dadd5479f4316a1201817c6b39be67e2417f3a51',
+73 silly resolved     bugs: { url: 'https://github.com/expressjs/serve-static/issues' },
+73 silly resolved     homepage: 'https://github.com/expressjs/serve-static',
+73 silly resolved     _id: 'serve-static@1.8.0',
+73 silly resolved     _shasum: '239e57bbfce030a8933d274e3fe7b55492ea267c',
+73 silly resolved     _from: 'serve-static@',
+73 silly resolved     _npmVersion: '1.4.28',
+73 silly resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+73 silly resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+73 silly resolved     dist:
+73 silly resolved      { shasum: '239e57bbfce030a8933d274e3fe7b55492ea267c',
+73 silly resolved        tarball: 'http://registry.npmjs.org/serve-static/-/serve-static-1.8.0.tgz' },
+73 silly resolved     directories: {},
+73 silly resolved     _resolved: 'https://registry.npmjs.org/serve-static/-/serve-static-1.8.0.tgz',
+73 silly resolved     readme: 'ERROR: No README data found!' } ]
+74 info install connect@3.3.4 into /usr/local/lib
+75 info install serve-static@1.8.0 into /usr/local/lib
+76 info installOne connect@3.3.4
+77 info installOne serve-static@1.8.0
+78 verbose lib/node_modules/connect unbuild
+79 verbose lib/node_modules/serve-static unbuild
+80 verbose tar unpack /home/icaro/.npm/connect/3.3.4/package.tgz
+81 silly lockFile d169a5cb-r-local-lib-node-modules-connect tar:///usr/local/lib/node_modules/connect
+82 verbose lock tar:///usr/local/lib/node_modules/connect /home/icaro/.npm/d169a5cb-r-local-lib-node-modules-connect.lock
+83 silly lockFile 0f69abb5-ro-npm-connect-3-3-4-package-tgz tar:///home/icaro/.npm/connect/3.3.4/package.tgz
+84 verbose lock tar:///home/icaro/.npm/connect/3.3.4/package.tgz /home/icaro/.npm/0f69abb5-ro-npm-connect-3-3-4-package-tgz.lock
+85 verbose tar unpack /home/icaro/.npm/serve-static/1.8.0/package.tgz
+86 silly lockFile 8a4b13cb-al-lib-node-modules-serve-static tar:///usr/local/lib/node_modules/serve-static
+87 verbose lock tar:///usr/local/lib/node_modules/serve-static /home/icaro/.npm/8a4b13cb-al-lib-node-modules-serve-static.lock
+88 silly lockFile bf707d68-m-serve-static-1-8-0-package-tgz tar:///home/icaro/.npm/serve-static/1.8.0/package.tgz
+89 verbose lock tar:///home/icaro/.npm/serve-static/1.8.0/package.tgz /home/icaro/.npm/bf707d68-m-serve-static-1-8-0-package-tgz.lock
+90 silly gunzTarPerm modes [ '775', '664' ]
+91 silly gunzTarPerm modes [ '775', '664' ]
+92 error Error: EACCES, mkdir '/usr/local/lib/node_modules/connect'
+92 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/connect']
+92 error   errno: 3,
+92 error   code: 'EACCES',
+92 error   path: '/usr/local/lib/node_modules/connect',
+92 error   fstream_type: 'Directory',
+92 error   fstream_path: '/usr/local/lib/node_modules/connect',
+92 error   fstream_class: 'DirWriter',
+92 error   fstream_stack:
+92 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23',
+92 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53',
+92 error      'Object.oncomplete (fs.js:108:15)' ] }
+93 error Please try running this command again as root/Administrator.
+94 error System Linux 3.13.0-39-generic
+95 error command "/usr/local/bin/node" "/usr/local/bin/npm" "install" "-g" "connect" "serve-static"
+96 error cwd /home/icaro/workfolder/material
+97 error node -v v0.10.35
+98 error npm -v 1.4.28
+99 error path /usr/local/lib/node_modules/connect
+100 error fstream_path /usr/local/lib/node_modules/connect
+101 error fstream_type Directory
+102 error fstream_class DirWriter
+103 error code EACCES
+104 error errno 3
+105 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules/connect'
+106 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:36:23
+106 error fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:46:53
+106 error fstream_stack Object.oncomplete (fs.js:108:15)
+107 verbose exit [ 3, true ]
